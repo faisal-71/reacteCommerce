@@ -1,0 +1,50 @@
+.caro-image{
+  width: 100%;
+  object-fit: "contain";
+}
+
+.prev-slider{
+  position: absolute;
+  bottom: 170px;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 40px;
+}
+
+.next-slider{
+  position: absolute;
+  bottom: 170px;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 40px;
+}
+
+.shop-btn {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.shop-btn:hover {
+  background-color: #629420;
+}
+
+@media width  {
+  
+}

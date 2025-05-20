@@ -1,0 +1,29 @@
+  .card-title {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card-layout{
+    width: 18rem; 
+    height: 27rem;
+    margin: 1rem;
+    margin-top: 10px;
+  }
+@media (min-width: 576px) {
+  .card-img-top {
+    height: 300px !important;
+  }}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 250px !important;
+  }}
+
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 280px !important;
+  }}
+
+  

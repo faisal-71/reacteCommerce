@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+   
+}
+
+.text-style{
+color: rgb(36, 89, 187);
+font-size: 30px;
+font-weight: bold;
+}
+
+.input-area{
+  width: 350px;
+}
+
+@media (max-width: 768px)  {
+  .input-area{
+  max-width : 100%;
+}}
+
+@media (max-width: 450px)  {
+  .input-area{
+  width : 250px;
+}}
